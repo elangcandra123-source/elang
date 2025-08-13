@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Pancing</title>
+    <style>
+        /* Styling Umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header .logo h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        section#produk {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 1.6rem;
+            margin: 15px 0;
+        }
+
+        .product-item p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .add-to-cart {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .add-to-cart:hover {
+            background-color: #45a049;
+        }
+
+        /* Section Tentang Kami */
+        section#about {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #e0f7fa;
+        }
+
+        section#contact {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Toko -->
+    <header>
+        <div class="logo">
+            <h1>Toko Pancing</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- Section Produk -->
+<section id="produk">
+    <h2>Produk Toko Pancing</h2>
+    <div class="product-grid">
+        <!-- Produk 1 -->
+        <div class="product-item">
+            <img src=" pancing1.jpg" alt="Joran Pancing">
+            <h3>Mini stream wing</h3>
+            <p>Rp 650.000</p>
+            <button class="add-to-cart">Tambah ke Keranjang</button>
+        </div>
+
+            <!-- Produk 2 -->
+            <div class="product-item">
+                <img src="gambar2.jpg" alt="Reel Pancing">
+                <h3>Reel tokos d50</h3>
+                <p>Rp 55.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="product-item">
+                <img src="gambar3.jpg" alt="Senar Pancing">
+                <h3>Senar Penyu</h3>
+                <p>Rp 35.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="product-item">
+                <img src="gambar4.jpg" alt="Kail Pancing">
+                <h3>Sasame sode</h3>
+                <p>Rp 35.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <!-- Produk 5 -->
+            <div class="product-item">
+                <img src="gambar5.jpg" alt="Kambangan Pancing">
+                <h3>Kambangan stopper</h3>
+                <p>Rp 15.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <!-- Produk 6 -->
+            <div class="product-item">
+                <img src="gambar6.jpg" alt="Timah Pancing">
+                <h3>Timah lipat</h3>
+                <p>Rp 2.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+            <!-- Produk 7 -->
+            <div class="product-item">
+                <img src="gambar7.jpg" alt="Keramba Pancing">
+                <h3>Keramba</h3>
+                <p>Rp 30.000</p>
+                <button class="add-to-cart">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah toko pancing terpercaya yang menyediakan berbagai peralatan pancing berkualitas untuk hobi memancing Anda.</p>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@tokopancing.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Toko Pancing. Semua hak dilindungi.</p>
+    </footer>
+
+</body>
+</html>
